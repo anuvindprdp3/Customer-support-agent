@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" width="980" height="560">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7efe5"/>
+      <stop offset="100%" stop-color="#f3e2d4"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 22px "IBM Plex Serif", Georgia, serif; fill: #1f1f1f; }
+      .label { font: 600 14px "IBM Plex Sans", "Segoe UI", sans-serif; fill: #1f1f1f; }
+      .text  { font: 500 12px "IBM Plex Sans", "Segoe UI", sans-serif; fill: #3d3d3d; }
+      .box { fill: #ffffff; stroke: #d2c6b8; stroke-width: 1.5; rx: 14; }
+      .accent { fill: #f26b3a; }
+      .accent2 { fill: #1a5fb4; }
+      .arrow { stroke: #7d7267; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7d7267" />
+    </marker>
+  </defs>
+
+  <rect width="980" height="560" fill="url(#bg)"/>
+
+  <text x="40" y="48" class="title">Customer Support Agent Architecture</text>
+
+  <rect x="40" y="90" width="260" height="120" class="box"/>
+  <text x="60" y="122" class="label">User Interface</text>
+  <text x="60" y="146" class="text">Web Chat UI</text>
+  <text x="60" y="166" class="text">FastAPI /chat</text>
+
+  <rect x="360" y="90" width="260" height="160" class="box"/>
+  <text x="380" y="122" class="label">Agent Orchestrator</text>
+  <text x="380" y="146" class="text">Guardrails + Memory</text>
+  <text x="380" y="166" class="text">Tool Calling</text>
+  <text x="380" y="186" class="text">Prompt Assembly</text>
+
+  <rect x="700" y="90" width="240" height="120" class="box"/>
+  <text x="720" y="122" class="label">Azure OpenAI</text>
+  <text x="720" y="146" class="text">Chat + Embeddings</text>
+
+  <rect x="360" y="290" width="260" height="120" class="box"/>
+  <text x="380" y="322" class="label">Azure AI Search</text>
+  <text x="380" y="346" class="text">Vector Index</text>
+  <text x="380" y="366" class="text">Warranty Policy</text>
+
+  <rect x="700" y="290" width="240" height="120" class="box"/>
+  <text x="720" y="322" class="label">Tools</text>
+  <text x="720" y="346" class="text">Case Lookup</text>
+  <text x="720" y="366" class="text">Schedule Appointment</text>
+
+  <rect x="40" y="300" width="260" height="110" class="box"/>
+  <text x="60" y="332" class="label">Document Pipeline</text>
+  <text x="60" y="356" class="text">Chunk + Embed</text>
+  <text x="60" y="376" class="text">Upload Index</text>
+
+  <line x1="300" y1="150" x2="360" y2="150" class="arrow"/>
+  <line x1="620" y1="150" x2="700" y2="150" class="arrow"/>
+  <line x1="490" y1="250" x2="490" y2="290" class="arrow"/>
+  <line x1="620" y1="340" x2="700" y2="340" class="arrow"/>
+  <line x1="300" y1="350" x2="360" y2="350" class="arrow"/>
+
+  <circle cx="316" cy="150" r="6" class="accent"/>
+  <circle cx="640" cy="150" r="6" class="accent2"/>
+  <circle cx="490" cy="268" r="6" class="accent"/>
+  <circle cx="640" cy="340" r="6" class="accent2"/>
+</svg>
