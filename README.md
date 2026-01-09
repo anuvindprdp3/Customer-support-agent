@@ -20,7 +20,6 @@ and multi-turn memory. This repo is designed for learning and demo use with mini
 5) Tool calls (if needed) are executed and fed back into the LLM.
 
 ## Screenshots
-Add your screenshots to `docs/` and update the links below.
 
 ![Chat UI](docs/ui.png)
 ![Azure AI Search service](docs/azure-search-service.png)
