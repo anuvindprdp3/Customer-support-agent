@@ -2,7 +2,7 @@
 
 An end-to-end, GenAI-powered customer support agent built on Azure OpenAI and Azure AI Search.
 It runs locally as a FastAPI app, supports RAG grounding, tool calling, lightweight guardrails,
-and multi-turn memory. This repo is designed for learning and demo use with minimal Azure costs.
+and multi-turn memory.
 
 ## Highlights
 - Azure OpenAI for chat + embeddings.
